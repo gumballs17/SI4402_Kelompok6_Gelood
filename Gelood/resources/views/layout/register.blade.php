@@ -42,18 +42,32 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-5 col-md-8">
-                            <form class="bg-white rounded shadow-5-strong p-5">
+                            <form class="bg-white rounded shadow-5-strong p-5" >
                                 <!-- Email input -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form1Example1">Email address</label>
-                                    <input type="email" id="form1Example1" class="form-control" />
+                                    <label for="name" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan Nama Lengkap">
                                 </div>
 
-                                <!-- Password input -->
                                 <div class="form-outline mb-4">
-                                    <label class="form-label" for="form1Example2">Password</label>
-                                    <input type="password" id="form1Example2" class="form-control" />
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan Alamat E-Mail">
                                 </div>
+                                
+                                <div class="form-outline mb-4">
+                                    <label for="no_hp" class="form-label">Nomor Handphone</label>
+                                    <input type="text" class="form-control" id="no_hp" name="no_hp" placeholder="Masukkan Nomor Handphone">
+                                </div>
+                                
+                                <div class="form-outline mb-4">
+                                    <label for="password" class="form-label">Kata Sandi</label>
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Kata Sandi Anda">
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <label for="konfirmasi" class="form-label">Konfirmasi Kata Sandi</label>
+                                    <input type="password" class="form-control" id="konfirmasi" name="konfirmasi" placeholder="Konfirmasi Kata Sandi Anda">
+                                </div>
+
 
                                 <!-- 2 column grid layout for inline styling -->
                                 <div class="row mb-4">
