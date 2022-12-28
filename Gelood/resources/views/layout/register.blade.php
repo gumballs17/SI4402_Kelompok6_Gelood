@@ -15,50 +15,76 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
     </script>
 
-    <!--Register Form-->
-    <section>
-        <div class="login_show">
-            <div class="row">
-                <div class="col">
-                    <img class="img-fluid" src="assets/img/about.jpg" />
-                </div>
-                <div class="col" style="margin-top:10px; margin-right: 100px;">
-                    <div>
-                        <h1>Registrasi</h1>
+    <!--Login Form-->
+    <header>
+        <style>
+            #intro {
+                background-image: url(assets/img/hero-bg.jpg);
+                height: 110vh;
+            }
+
+            /* Height for devices larger than 576px */
+            @media (min-width: 992px) {
+                #intro {
+                    margin-top: -58.59px;
+                }
+            }
+
+            .navbar .nav-link {
+                color: #fff !important;
+            }
+
+        </style>
+
+        <!-- Background image -->
+        <div id="intro" class="bg-image shadow-2-strong">
+            <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.8);">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-5 col-md-8">
+                            <form class="bg-white rounded shadow-5-strong p-5">
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="form1Example1">Email address</label>
+                                    <input type="email" id="form1Example1" class="form-control" />
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <label class="form-label" for="form1Example2">Password</label>
+                                    <input type="password" id="form1Example2" class="form-control" />
+                                </div>
+
+                                <!-- 2 column grid layout for inline styling -->
+                                <div class="row mb-4">
+                                    <div class="col d-flex justify-content-center">
+                                        <!-- Checkbox -->
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="form1Example3"
+                                                checked />
+                                            <label class="form-check-label" for="form1Example3">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col text-center">
+                                        <!-- Simple link -->
+                                        <a href="#!">Forgot password?</a>
+                                    </div>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                            </form>
+                        </div>
                     </div>
-                    <br>
-                    <form action="../config/register.php" method="POST" enctype="multipart/form-data">
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="text" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="nama" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="nama" name="nama" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="user" class="form-label">User Name</label>
-                            <input type="text" class="form-control" id="user" name="user" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="password" name="password" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="password2" class="form-label">Repeat Password</label>
-                            <input type="password" class="form-control" id="password2" name="password2" required>
-                        </div>
-                        <div>
-                            <div class="col-12">
-                                <button class="btn btn-secondary" type="submit">Register</button>
-                            </div>
-                            <br>
-                            <p>Already have account ? <a href="Login_Aebil.php">Login</a></p>
-                        </div>
-                    </form>
                 </div>
             </div>
-    </section>
+        </div>
+        <!-- Background image -->
+    </header>
+    <!--Main Navigation-->
 
 </body>
 
