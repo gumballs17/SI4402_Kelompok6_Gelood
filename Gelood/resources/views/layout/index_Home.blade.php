@@ -49,7 +49,7 @@
             </nav><!-- .navbar -->
 
             <a href="/login" class="appointment-btn scrollto"><span class="d-none d-md-inline">Log In</a>
-            <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Register</a>
+            <a href="/register" class="appointment-btn scrollto"><span class="d-none d-md-inline">Register</a>
 
         </div>
     </header><!-- End Header -->
