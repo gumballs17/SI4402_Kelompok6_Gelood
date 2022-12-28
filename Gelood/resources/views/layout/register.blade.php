@@ -20,7 +20,7 @@
         <style>
             #intro {
                 background-image: url(assets/img/hero-bg.jpg);
-                height: 110vh;
+                height: 150vh;
             }
 
             /* Height for devices larger than 576px */
@@ -89,7 +89,7 @@
                                 </div>
 
                                 <!-- Submit button -->
-                                <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                <button type="submit" class="btn btn-primary btn-block">Registrasi</button>
                             </form>
                         </div>
                     </div>
