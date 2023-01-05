@@ -21,51 +21,41 @@ class EmployeesSeeder extends Seeder
         Employees::create([
             'id_employees' => Uuid::uuid4()->toString() . "\n",
             'id_institutions' => '731ef6df-6171-33fd-bd05-93cd76db2cdd',
-            'name_employees' => '(Admin) Muhammad Rezki Ananda',
-            'email_employees' => 'muhammad.rezki.ananda@pmi.co.id',
+            'name_employees' => '(Admin) Aebil Taskari Rusydi',
+            'email_employees' => 'aebiltaskari@pmi.co.id',
             'password_employees' => Hash::make(12345),
-            'contact_employees' => '085608845319',
-            'address_employees' => 'Jl.Kediri Raya Weeh, Jawa Timur'
+            'contact_employees' => '085256433390',
+            'address_employees' => 'Jln A.Lamaggarung, Makassar'
         ]);
 
         Employees::create([
             'id_employees' => Uuid::uuid4()->toString() . "\n",
-            'id_institutions' => '272f8cd3-f856-37f0-ac40-94c3b36d52da',
-            'name_employees' => '(Admin) Alif Yanuar Aditya Subagyo',
-            'email_employees' => 'michelyanuar@pmi.co.id',
+            'id_institutions' => '2217c28f-d59c-3ab1-860c-d2cce27b2a9f',
+            'name_employees' => '(Admin) Diyas Yakluna Baihaqi',
+            'email_employees' => 'diyasyakluna@pmi.co.id',
             'password_employees' => Hash::make(12345),
             'contact_employees' => '087772934259',
-            'address_employees' => 'Jln. Isekai, mantep mantep aselole jos jos jos'
-        ]);
-
-        Employees::create([
-            'id_employees' => Uuid::uuid4()->toString() . "\n",
-            'id_institutions' => '9d25e4f1-fbaf-359e-9e45-890677a67c0d',
-            'name_employees' => '(Admin) Bagus Tri Atmaja',
-            'email_employees' => 'bagustri734@pmi.co.id',
-            'password_employees' => Hash::make(12345),
-            'contact_employees' => '082145198847',
-            'address_employees' => 'Jl bukan jokowi no 69 kyoto, jepang'
-        ]);
-
-        Employees::create([
-            'id_employees' => Uuid::uuid4()->toString() . "\n",
-            'id_institutions' => '0a2fdb17-2d3e-3949-9f36-68cf14b941e5',
-            'name_employees' => '(Admin) Muhammad Ihsan Izzulhaq',
-            'email_employees' => 'mi.izzulhaq@pmi.co.id',
-            'password_employees' => Hash::make(12345),
-            'contact_employees' => '081286226512',
-            'address_employees' => 'Jl. Aster, Kab. Tokyo - Japan'
+            'address_employees' => 'Jln. Isekai timur, Medan'
         ]);
 
         Employees::create([
             'id_employees' => Uuid::uuid4()->toString() . "\n",
             'id_institutions' => '0264db2d-0f84-32ef-b732-d56d7b3d0493',
-            'name_employees' => '(Admin) Yanuar Taruna Lutfi',
-            'email_employees' => 'hanstarunal@pmi.co.id',
+            'name_employees' => '(Admin) Diandra Ridha Nurani',
+            'email_employees' => 'diandraridha@pmi.co.id',
             'password_employees' => Hash::make(12345),
-            'contact_employees' => '082318968902',
-            'address_employees' => 'Jl. Bandung Garut Km. 27 Sumedang'
+            'contact_employees' => '082145198847',
+            'address_employees' => 'Jl bukan jokowi, Bandung'
+        ]);
+
+        Employees::create([
+            'id_employees' => Uuid::uuid4()->toString() . "\n",
+            'id_institutions' => '9e33b53c-d6e2-3b2b-9335-0c6b626981d3',
+            'name_employees' => '(Admin) Magdalena Edelways Enjelina Pasaribu',
+            'email_employees' => 'magdalnapasaribu@pmi.co.id',
+            'password_employees' => Hash::make(12345),
+            'contact_employees' => '081286226512',
+            'address_employees' => 'Jln. aster ter, Batak'
         ]);
     }
 }

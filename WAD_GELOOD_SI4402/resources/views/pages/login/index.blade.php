@@ -9,8 +9,7 @@
         <div class="col-md-6 col-sm-12 d-flex">
             <div class=" flex-column mx-auto" style="padding-top: 200px">
                 <p class="text-left text-blue text-title1 pb-2"
-                   style="font-size: 50px;line-height: 30px;font-family: 'Montserrat', sans-serif;">Welcome to <img
-                        src="{{ url('/images/logo.png') }}" alt="logo" width="175px"></p>
+                   style="font-size: 50px;line-height: 30px;font-family: 'Montserrat', sans-serif;">Welcome to Gelood</p>
                 <p class="text-left text-body1 pb-2 my-2" style="max-width: 500px">“Kebaikan yang kita berikan pada orang lain sesungguhnya adalah kebaikan yang kita tanam untuk diri sendiri”</p>
                 <img class="img-fluid mt-3" src="{{ url('/images/nurse_with_medicine.png') }}" alt="nurse">
             </div>

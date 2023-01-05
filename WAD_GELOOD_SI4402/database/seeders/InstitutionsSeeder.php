@@ -146,10 +146,10 @@ class InstitutionsSeeder extends Seeder
 
         Institutions::create([
             'id_institutions' => '731ef6df-6171-33fd-bd05-93cd76db2cdd',
-            'name_institutions' => 'PMI Cabang Kota Kediri',
-            'contact_institutions' => '(0354) 689072',
-            'email_institutions' => 'pmikediri@pmi.co.id',
-            'address_institutions' => 'Jl. Mayor Bismo No.15, Mojoroto, Kec. Mojoroto, Kota Kediri, Jawa Timur 64121',
+            'name_institutions' => 'PMI Kota Makassar',
+            'contact_institutions' => '(0411) 3621954',
+            'email_institutions' => 'pmimakassar@pmi.co.id',
+            'address_institutions' => 'Jl. Kandea No.16, Baraya, Kec. Bontoala, Kota Makassar, Sulawesi Selatan 90211',
             'longitude_institutions' => '-7.795520',
             'latitude_institutions' => '112.009530',
         ]);

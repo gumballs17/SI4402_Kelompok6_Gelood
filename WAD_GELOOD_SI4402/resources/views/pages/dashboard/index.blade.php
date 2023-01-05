@@ -13,24 +13,6 @@
                     <div class="card mb-4" style="width: 100%;">
                         <div class="card-header py-3">
                             <div class="d-flex justify-content-between">
-                                <h6 class="m-0 text-title1 text-blue">Trend Covid Indonesia</h6>
-                                <a class="text-decoration-none" href="#">
-                                    <p class="text-body">30 hari terakhir</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="chart-area">
-                                <canvas id="myAreaChart"></canvas>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="card mb-4" style="width: 100%;">
-                        <div class="card-header py-3">
-                            <div class="d-flex justify-content-between">
                                 <h6 class="m-0 text-title1 text-blue">Artikel Pilihan</h6>
                                 <a href="{{ url('/article') }}" class="text-decoration-none">
                                     <p class="text-body">Lihat selengkapnya</p>

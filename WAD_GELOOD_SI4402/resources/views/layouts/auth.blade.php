@@ -6,9 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Dorplas - Yuk Peduli Sesama">
+    <meta name="description" content="Gelood - Yuk Peduli Sesama">
     <meta name="author" content="Kelompok Mantap">
-    <title>Dorplas - {{ $title }}</title>
+    <title>Gelood - {{ $title }}</title>
     <link rel="icon" href="{{ url('/images/icon/ic_drop.svg') }}">
     <link href="{{ url('/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ url('/css/sb-admin-2.min.css') }}" rel="stylesheet" type="text/css">
