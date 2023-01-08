@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Articel;
 use Illuminate\Database\Seeder;
+use Ramsey\Uuid\Uuid;
 
 class ArticelSeeder extends Seeder
 {
