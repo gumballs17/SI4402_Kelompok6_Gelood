@@ -13,7 +13,7 @@ class ArticelSeeder extends Seeder
      */
     public function run()
     {
-        Article::create([
+        Articel::create([
             'id_articel' => Uuid::uuid4()->toString() . "\n",
             'name_articel' => 'Manfaat Rutin Donor Darah',
             'desc_articel' => 'Tahukah Anda bahwa setiap 8 detik, ada satu orang yang membutuhkan transfusi darah di Indonesia dan setiap menitnya, ada 10 orang sekarang menanti donasi donor darah? Menurut Badan Kesehatan Dunia (WHO) tahun 2015, Indonesia kekurangan jumlah produksi darah secara nasional, yaitu sekitar 500 ribu kantong tiap tahunnya. Bisa jadi kesadaran masyarakat untuk menjadi pendonor sukarela masih rendah. Padahal, banyak sekali manfaat rutin donor darah bagi kesehatan pendonornya.
