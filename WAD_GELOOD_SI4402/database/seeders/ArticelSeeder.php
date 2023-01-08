@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use Ramsey\Uuid\Uuid;
+use App\Models\Articel;
 use Illuminate\Database\Seeder;
 
 class ArticelSeeder extends Seeder
@@ -20,7 +22,7 @@ class ArticelSeeder extends Seeder
             Mental Health Foundation menyebut, donor darah dapat mengurangi stres, meningkatkan persepsi terhadap keadaan emosional yang meliputi kepuasan hidup dan kebahagiaan hidup (emotional well-being), baik untuk kesehatan tubuh, membantu menyingkirkan perasaan negatif, menciptakan rasa saling memiliki dan mengurangi perasaan kesepian (isolation).',
         ]);
 
-        Article::create([
+        Articel::create([
             'id_articel' => Uuid::uuid4()->toString() . "\n",
             'name_articel' => 'Membantu Orang Lain Sehat, Diri Kita Menjadi Sehat',
             'desc_articel' => 'Mengawali rangkaian kegiatan Peringatan Hari Ulang Tahun Pertambangan Dan Energi (HUT PE) ke-77, Kementerian Energi Dan Sumber Daya Mineral bekerja sama dengan PMI Provinsi DKI melaksanakan kegiatan bakti sosial donor darah. Ditargetkan akan terkumpul sebanyak 200 kantong dari kegiatan donor darah kali ini.
@@ -30,7 +32,7 @@ class ArticelSeeder extends Seeder
             Reni menambahkan, untuk mendapatkan target 200 kantong darah terkadang diperlukan pendonor melebih target kantong darah karena beberapa pendonor yang mendaftar belum tentu dapat mendonorkan darahnya karena berbagai alasan.',
         ]);
 
-        Article::create([
+        Articel::create([
             'id_articel' => Uuid::uuid4()->toString() . "\n",
             'name_articel' => 'Hari Bakti PU ke-74',
             'desc_articel' => 'Kegiatan donor darah yang difasilitasi oleh PMI Daerah Sulawesi Tengah ini, sering kali menjadi salah satu kegiatan rutin yang ditambahkan ke dalam rangkaian acara-acara besar Balai Wilayah Sungai Sulawesi III Palu. Sebab, seperti yang diketahui oleh Sobat Balai, bahwa Donor Darah tidak hanya sebagai kegiatan amal tetapi juga sangat bermanfaat bagi kesehatan tubuh. 
