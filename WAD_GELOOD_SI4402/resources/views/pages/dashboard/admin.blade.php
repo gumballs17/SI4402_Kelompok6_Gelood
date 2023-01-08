@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-6 col-sm-12">
             <div class="d-flex flex-column ">
-                <h3 class="text-blue font-weight-bold mt-5 pt-5 text-center m-auto">Data Request Plasma</h3>
+                <h3 class="text-blue font-weight-bold mt-5 pt-5 text-center m-auto">Data Request Donor Darah</h3>
                 <div id='donorSubmissionsChart' class="m-auto"></div>
             </div>
         </div>

@@ -44,8 +44,8 @@
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Jenis Layanan</h6>
-                    <a class="collapse-item" href="{{ url('/donor') }}">Donor Plasma</a>
-                    <a class="collapse-item" href="{{ url('/submission') }}">Request Plasma</a>
+                    <a class="collapse-item" href="{{ url('/donor') }}">Donor Darah</a>
+                    <a class="collapse-item" href="{{ url('/submission') }}">Request Darah</a>
                 </div>
             </div>
         </li>
@@ -75,13 +75,13 @@
         <li class="nav-item ml-2">
             <a class="nav-link" href="{{ url('/_donor') }}">
                 <img src="{{ url('/images/icon/ic_manage.svg') }}" class="img-fluid ml-1" width="20px" alt="notifikasi">
-                <span class="text-grey hover-underline-animation {{ ($active === "donor") ? 'active' : '' }}">Kelola Donor Plasma</span></a>
+                <span class="text-grey hover-underline-animation {{ ($active === "donor") ? 'active' : '' }}">Kelola Donor Darah</span></a>
         </li>
 
         <li class="nav-item ml-2">
             <a class="nav-link" href="{{ url('/_submission') }}">
                 <img src="{{ url('/images/icon/ic_manage.svg') }}" class="img-fluid ml-1" width="20px" alt="notifikasi">
-                <span class="text-grey hover-underline-animation {{ ($active === "submission") ? 'active' : '' }}">Kelola Request Plasma</span></a>
+                <span class="text-grey hover-underline-animation {{ ($active === "submission") ? 'active' : '' }}">Kelola Request Darah</span></a>
         </li>
 
         <li class="nav-item ml-2">
