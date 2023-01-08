@@ -21,7 +21,6 @@ class DashboardController extends Controller
         return view('pages.dashboard.index', [
             'title' => 'Dashboard',
             'active' => 'dashboard',
-            'articleData' => $this->article()->getArticle(),
             'stockPlasma' => $this->stockPlasma(),
             'totalRequest' => $this->requestPlasma(),
             'schedules' => $this->schedule(),

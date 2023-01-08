@@ -4,29 +4,7 @@
     <link href="{{ url('/vendor/powerful-calendar/theme.css') }}" rel="stylesheet">
 @endsection
 @section('container')
-    {{--@dd($covidData)--}}
-    <div class="row">
         @include('partials.overview')
-        <div class="col-md-6 col-sm-12 mt-5">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card mb-4" style="width: 100%;">
-                        <div class="card-header py-3">
-                            <div class="d-flex justify-content-between">
-                                <h6 class="m-0 text-title1 text-blue">Artikel Pilihan</h6>
-                                <a href="{{ url('/article') }}" class="text-decoration-none">
-                                    <p class="text-body">Lihat selengkapnya</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
         <div class="col-md-6 col-sm-12 mt-5">
             <div class="card mb-4" style="width: 100%;">
                 <div class="card-header py-3">
@@ -73,7 +51,6 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection
 @section('custom-script')
     <script> let dataCovid = @json($covidData) </script>

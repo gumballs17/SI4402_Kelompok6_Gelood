@@ -29,7 +29,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('index_Home');
+    return view('/index');
 });
 
 Route::get('/dashboard', function () {
