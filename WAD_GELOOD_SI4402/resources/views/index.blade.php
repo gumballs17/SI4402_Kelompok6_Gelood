@@ -180,7 +180,7 @@
                             <div class="member-info">
                                 <h4>Aebil Taskari Rusydi</h4>
                                 <span>1202204126</span>
-                                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                                <p>"Talk less do More</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -197,7 +197,7 @@
                             <div class="member-info">
                                 <h4>Diandra Ridha Nurani</h4>
                                 <span>1202202124</span>
-                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                                <p>"Diet mulai besok"</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -214,7 +214,7 @@
                             <div class="member-info">
                                 <h4>Diyas Yakluna Baihaqi</h4>
                                 <span>1202200000</span>
-                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                                <p>"Syukuri dan Hargai Hal-Hal yang Kamu Miliki"</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -231,7 +231,7 @@
                             <div class="member-info">
                                 <h4>Magdelena Edelways Enjelina P</h4>
                                 <span>1202200064</span>
-                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                                <p>"Kayaknya besok bu ngantuk"</p>
                                 <div class="social">
                                     <a href=""><i class="ri-twitter-fill"></i></a>
                                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -349,11 +349,7 @@
 
                 <div class="section-title">
                     <h2>Gallery</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                        Quia
-                        fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Gallery Kegiatan Donor Darah Tahun 2022</p>
                 </div>
             </div>
 
@@ -462,9 +458,6 @@
                     <div class="col-lg-4 col-md-6 footer-newsletter">
                         <h4>Join Our Newsletter</h4>
                         <p>Dapatkan berita terupdate dengan melakukan registrasi !</p>
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
-                        </form>
                     </div>
 
                 </div>
