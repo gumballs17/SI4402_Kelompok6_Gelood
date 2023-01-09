@@ -104,7 +104,7 @@
             <a class="nav-link" href="{{ url('/account') }}">
                 <img src="{{ url('/images/icon/ic_profile.svg') }}" class="img-fluid" width="24px" alt="akun">
                 <span
-                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Akun</span></a>
+                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Profil</span></a>
         </li>
 
 
@@ -120,7 +120,7 @@
             <a class="nav-link" href="{{ url('/_account') }}">
                 <img src="{{ url('/images/icon/ic_profile.svg') }}" class="img-fluid" width="24px" alt="akun">
                 <span
-                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Akun</span></a>
+                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Profil</span></a>
         </li>
 
         <li class="nav-item ml-2">
