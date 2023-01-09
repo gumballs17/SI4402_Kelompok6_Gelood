@@ -44,7 +44,7 @@ class DonorNoteController extends Controller
 
         DonorNotes::create($validateData);
 
-        return redirect('/donor')->with('donorSuccess', 'Berhasil melakukan pendaftaran donor plasma, silahkan pantau di menu akun');
+        return redirect('/donor')->with('donorSuccess', 'Berhasil melakukan pendaftaran donor darah, silahkan pantau di menu akun');
     }
 
     public function getInstitutions()

@@ -27,7 +27,7 @@
                                 <p style="max-lines: 2;"
                                    class="text-title1 text-blue ml-2">{{ $data->name_donor_events }}</p>
                                 <p>
-                                    <span class="text-primary text-body1 mt-2 ml-2">Dorplas</span>
+                                    <span class="text-primary text-body1 mt-2 ml-2">Gelood</span>
                                     <span class="text-secondary text-body1 ml-2">&bull;</span>
                                     <span
                                         class="text-secondary text-body1 ml-2">{{ \Carbon\Carbon::parse( $data->start_date_donor_events)->translatedFormat('d-m-Y') }}</span>
@@ -84,7 +84,7 @@
                                      alt="image">
                                 <p class="ellipsis-2 text-blue text-title1 mt-2">{{ $data->name_donor_events }}</p>
                                 <p>
-                                    <span class="text-primary text-body1 mt-2">Dorplas</span>
+                                    <span class="text-primary text-body1 mt-2">Gelood</span>
                                     <span class="text-secondary text-body1">&bull;</span>
                                     <span
                                         class="text-secondary text-body1">{{ $data->institutions->name_institutions }}</span>

@@ -138,7 +138,7 @@ class DonorEventsSeeder extends Seeder
         DonorEvents::create([
             'id_donor_events' => Uuid::uuid4()->toString() . "\n",
             'id_institutions' => '9d25e4f1-fbaf-359e-9e45-890677a67c0d',
-            'name_donor_events' => 'Donor Darah dan Donor Plasma Konvalesen Pertamina RJBT',
+            'name_donor_events' => 'Donor Darah dan Donor  KonvalesPlasmaen Pertamina RJBT',
             'start_date_donor_events' => '2023-07-03',
             'end_date_donor_events' => '2023-07-05',
             'start_time_donor_events' => '08:00:00',

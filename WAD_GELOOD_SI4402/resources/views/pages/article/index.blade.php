@@ -43,7 +43,7 @@
                                      alt="image">
                                 <p class="ellipsis-2 text-blue text-title1 mt-2">{{ $data->name_articel }}</p>
                                 <p>
-                                    <span class="text-primary text-body1 mt-2">Dorplas</span>
+                                    <span class="text-primary text-body1 mt-2">Gelood</span>
                                     <span class="text-secondary text-body1">&bull;</span>
                                 </p>
                                 <p class="text-blue text-title1 mt-2">Deksripsi</p>
