@@ -40,7 +40,7 @@ class DonatorsSeeder extends Seeder
             'blood_type_donators' => 'A',
             'rhesus_type_donators' => 'negative',
             'contact_donators' => '087772934259',
-            'address_donators' => 'Jln. Isekai, mantep mantep aselole jos jos jos',
+            'address_donators' => 'Jln. Isekai, mantep mantep aselole jos jos',
             'point_donators' => mt_rand(0, 100)
         ]);
 
@@ -66,7 +66,7 @@ class DonatorsSeeder extends Seeder
             'blood_type_donators' => 'B',
             'rhesus_type_donators' => 'negative',
             'contact_donators' => '081286226512',
-            'address_donators' => 'Jl. Aster, Kab. Tokyo - Japan',
+            'address_donators' => 'Jl. Aster, Kab. Tokyo - Siney',
             'point_donators' => mt_rand(0, 100)
         ]);
     }
