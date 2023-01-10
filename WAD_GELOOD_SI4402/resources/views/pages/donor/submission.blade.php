@@ -15,7 +15,7 @@
                 tetapi juga dasar dari aktivitas intelektual yang dinamis dan kreatif."</i></p>
         </div>
         <div class="col-md-6 col-sm-12 d-flex flex-column my-auto pt-5">
-            <h3 class="text-blue font-bolder font-weight-bold mb-5">Form Permohonan Plasma</h3>
+            <h3 class="text-blue font-bolder font-weight-bold mb-5">Form Permohonan Donor Darah</h3>
             <form action="/submission" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group mb-3">
@@ -97,7 +97,7 @@
                     @enderror
                 </div>
                 <div class="form-group mb-3">
-                    <label for="id_institutions" class="text-title1 text-blue">Lokasi Donor Plasma</label>
+                    <label for="id_institutions" class="text-title1 text-blue">Lokasi Donor Darah</label>
                     <select
                         class="custom-select text-title1 text-blue mt-1 @error('id_institutions') is-invalid @enderror"
                         id="id_institutions" name="id_institutions"

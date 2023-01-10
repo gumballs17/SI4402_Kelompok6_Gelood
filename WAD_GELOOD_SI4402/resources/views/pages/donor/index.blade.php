@@ -26,7 +26,7 @@
                     </div>
                 @endif
                 <div class="form-group mb-3">
-                    <label for="id_institutions" class="text-title1 text-blue">Lokasi Donor Plasma</label>
+                    <label for="id_institutions" class="text-title1 text-blue">Lokasi Donor Darah</label>
                     <select
                         class="custom-select text-title1 text-blue mt-1 @error('id_institutions') is-invalid @enderror"
                         id="id_institutions" name="id_institutions"
@@ -52,7 +52,7 @@
                     @enderror
                 </div>
                 <div class="form-group mb-3">
-                    <label for="schedule_donor_notes" class="text-title1 text-blue">Jadwal Donor Plasma</label>
+                    <label for="schedule_donor_notes" class="text-title1 text-blue">Jadwal Donor Darah</label>
                     @if(isset($eventSelected))
                         <input type="hidden" name="id_donor_events" value="{{ $eventSelected->id_donor_events }}">
                         <input type="date"
