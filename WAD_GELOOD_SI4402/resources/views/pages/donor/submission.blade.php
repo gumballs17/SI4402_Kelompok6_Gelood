@@ -10,7 +10,7 @@
         <div class="col-md-6 col-sm-12">
             <img class="img=fluid" src="{{ url('/images/woman.png') }}" alt="Woman">
             <p class="text-title1 text-blue mt-1"
-               style="font-size: 30px;line-height: 30px;font-family: 'Montserrat', sans-serif;">Ajukan Donor</p>
+               style="font-size: 30px;line-height: 30px;font-family: 'Montserrat', sans-serif;">Request Darah</p>
             <p class="text-title2 text-blue mt-2" style="max-width: 500px"><i>"Kebugaran fisik bukan hanya salah satu kunci terpenting untuk tubuh yang sehat,
                 tetapi juga dasar dari aktivitas intelektual yang dinamis dan kreatif."</i></p>
         </div>

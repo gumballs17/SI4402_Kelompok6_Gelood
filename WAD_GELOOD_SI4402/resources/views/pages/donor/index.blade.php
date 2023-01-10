@@ -15,7 +15,7 @@
                 dan dia yang memiliki harapan memiliki segalanya."</i></p>
         </div>
         <div class="col-md-6 col-sm-12 d-flex flex-column my-auto pt-5">
-            <h3 class="text-blue font-bolder font-weight-bold mb-5">Form Pengajuan Donor</h3>
+            <h3 class="text-blue font-bolder font-weight-bold mb-5">Form Pengajuan Donor Darah</h3>
             <form action="/donor" method="POST">
                 @csrf
                 @if(isset($eventSelected))

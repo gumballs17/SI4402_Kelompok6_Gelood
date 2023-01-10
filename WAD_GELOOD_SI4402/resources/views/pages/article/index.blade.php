@@ -30,7 +30,7 @@
                         <div class="modal-header">
                             <h4 class="modal-title font-weight-bold text-title1 text-blue text-truncate"
                                 id="detailModalLabel">
-                                Detail Acara
+                                Detail Artikel
                             </h4>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>

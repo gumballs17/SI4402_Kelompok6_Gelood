@@ -229,7 +229,7 @@
                         <div class="member d-flex align-items-start">
                             <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
                             <div class="member-info">
-                                <h4>Magdelena Edelways Enjelina P</h4>
+                                <h4>Magdalena Edelways Enjelina Pasaribu</h4>
                                 <span>1202200064</span>
                                 <p>"Kayaknya besok bu ngantuk"</p>
                                 <div class="social">
