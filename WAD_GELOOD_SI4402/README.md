@@ -14,7 +14,7 @@
 
 <br />
 
-Buka CMD atau Terminal kemudian lakukan instalasi package/library/plugin dibawah dengan command sebagai berikut :
+Run di CMD atau terminal:
 
 `create database gelood`
 
