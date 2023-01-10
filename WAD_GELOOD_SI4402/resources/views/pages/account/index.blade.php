@@ -65,7 +65,7 @@
                                 </div>
                             @endforeach
                         @else
-                            <p class="text-center">Belum melakukan pendaftaran request plasma</p>
+                            <p class="text-center">Belum melakukan pendaftaran request Darah</p>
                         @endif
                     </div>
                     <hr>
