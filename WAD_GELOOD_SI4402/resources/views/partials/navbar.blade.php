@@ -31,7 +31,7 @@
                      style="margin-left: 2px;"
                      alt="acara">
                 <span class="text-grey hover-underline-animation {{ ($active === "event") ? 'active' : '' }}"
-                      style="margin-left: 3px;">Acara</span></a>
+                      style="margin-left: 3px;">Event</span></a>
         </li>
 
         <li class="nav-item ml-2">
@@ -88,7 +88,7 @@
             <a class="nav-link" href="{{ url('/_event') }}">
                 <img src="{{ url('/images/icon/ic_event_admin.svg') }}" class="img-fluid ml-1" width="20px"
                      alt="notifikasi">
-                <span class="text-grey hover-underline-animation {{ ($active === "event") ? 'active' : '' }}">Kelola Acara</span></a>
+                <span class="text-grey hover-underline-animation {{ ($active === "event") ? 'active' : '' }}">Kelola Event</span></a>
         </li>
     @endif
 
@@ -104,7 +104,7 @@
             <a class="nav-link" href="{{ url('/account') }}">
                 <img src="{{ url('/images/icon/ic_profile.svg') }}" class="img-fluid" width="24px" alt="akun">
                 <span
-                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Akun</span></a>
+                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Profil</span></a>
         </li>
 
 
@@ -120,7 +120,7 @@
             <a class="nav-link" href="{{ url('/_account') }}">
                 <img src="{{ url('/images/icon/ic_profile.svg') }}" class="img-fluid" width="24px" alt="akun">
                 <span
-                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Akun</span></a>
+                    class="text-grey hover-underline-animation {{ ($active === "account") ? 'active' : '' }}">Profil</span></a>
         </li>
 
         <li class="nav-item ml-2">
