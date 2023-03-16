@@ -29,9 +29,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/dashboard', function () {
+Route::get('/dashboard', function () {
     return redirect('/dashboard');
-});*/
+});
 
 Route::middleware(['user_not_login'])->group(function () {
     {
